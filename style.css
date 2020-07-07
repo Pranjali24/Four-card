@@ -30,6 +30,7 @@ body{
   margin: 0 auto;
   font-size: 1rem;
   color: #777;
+  line-height: 1.3;
 }
 
 /* Services Section */
@@ -40,6 +41,7 @@ body{
  align-items: center;
  font-size: 1rem;
 }
+
 .line{
 height: 3px;
 background-color: rgb(117, 206, 241);
@@ -82,4 +84,19 @@ background-color: rgb(117, 206, 241);
  position: absolute;
  right: 2rem;
  bottom: 1rem;
+}
+/* footer section */
+.attribution{
+    text-align: center;
+}
+/* Media Queried */
+
+@media only screen and (max-width:850px) {
+.services{
+  padding:.5rem 2rem 2rem;
+  flex-direction: column;
+}
+.header__detail{
+    width: 50%;
+}
 }
